@@ -381,6 +381,8 @@ display: flex;
   font-size: 18px;
 }
 
-.social-icon {
-  padding: 0 10px;
+.footer__social-icon {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
