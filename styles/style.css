@@ -189,48 +189,56 @@ display: flex;
   font-size: 18px;
   font-weight: normal;
 }
+
 .feynman {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url('../images/feynman.png');
-  background-repeat: no-repeat;
   height: 790px;
-  background-size: 867px 637px;
-  background-position: left bottom;
   background-color: #f2f2f2;
   position: relative;
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/feynman.png);
+  background-size: 867px 637px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.feynman__image {
+  background-image: url(../images/feynman.png);
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .feynman__title {
   width: 648px;
+  margin: 100px auto 0;
+  text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin: 0;
-  text-align: center;
 }
 
 .feynman__subtitle {
+  margin: 70px auto 0;
+  text-align: center;
+  justify-content: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin: 0;
-  padding-top: 70px;
 }
 
 .feynman__link {
+  position: absolute;
+  right: 48px;
+  bottom: 50%;
+  text-decoration: none;
+  color: black;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  position: absolute;
-  right: 48px;
-  color: black;
-  top: 50%;
-
 }
-
 
 .table__cell_theme_dark {
   width: 200px;
@@ -373,6 +381,6 @@ display: flex;
   font-size: 18px;
 }
 
-.footer__social-icon {
+.social-icon {
   padding: 0 10px;
 }
