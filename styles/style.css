@@ -53,7 +53,7 @@
   z-index: 10;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal
+  font-weight: normal;
 }
 
 .header__link {
@@ -205,7 +205,7 @@ display: flex;
 
 .feynman__title {
   width: 648px;
-  line-height: 1.15em;
+  line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   margin: 0;
