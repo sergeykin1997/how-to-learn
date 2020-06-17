@@ -202,9 +202,7 @@
   font-size: 18px;
   font-weight: normal;
 }
-.kaufman__triangle{
-  background-image: url(../images/kaufman-triangle.svg);
-}
+
 
 .feynman {
 
@@ -319,6 +317,7 @@
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   z-index: 0;
   right: -210px;
