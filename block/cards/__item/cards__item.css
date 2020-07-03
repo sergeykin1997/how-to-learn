@@ -4,3 +4,6 @@
   text-align: center;
   margin-right: 100px;
 }
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
+}

@@ -6,8 +6,6 @@
 @import url(./__social-icon/footer__social-icon.css);
 @import url(./_content_copyright/footer__column_content_copyright.css);
 @import url(./logo_place_footer/logo_place_footer.css);
-@import url(./__social-icon/footer__social-icon:hover.css);
-@import url(./__link/footer__link:hover.css);
 .footer {
   display: flex;
   justify-content: center;

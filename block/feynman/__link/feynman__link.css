@@ -10,3 +10,6 @@
   transition: opacity .2s linear;
   cursor: pointer;
 }
+.feynman__link:hover{
+  opacity: .6;
+}

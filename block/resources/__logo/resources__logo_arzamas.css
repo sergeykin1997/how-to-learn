@@ -1,0 +1,7 @@
+.resources__logo_arzamas{
+transition: opacity .2s linear;
+  cursor: pointer;
+}
+.resources__logo_arzamas:hover{
+  opacity: .6;
+}

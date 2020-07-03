@@ -5,3 +5,6 @@
   transition: opacity .2s linear;
   cursor: pointer;
  }
+ .footer__social-icon:hover {
+  opacity: .6;
+}
