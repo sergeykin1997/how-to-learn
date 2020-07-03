@@ -1,6 +1,9 @@
 @import url(./__cell/table__cell.css);
 @import url(./__heading/table__heading.css);
 @import url(./__text/table__text.css);
+@import url(./__cell_theme_dark/table__cell_theme_dark.css);
+@import url(./__heading_theme_dark/table__heading_theme_dark.css);
+@import url(./__text_theme_dark/table__text_theme_dark.css);
 .table{
   padding-left: 0;
   width: 1100px;
