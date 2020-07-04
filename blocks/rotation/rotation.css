@@ -1,5 +1,4 @@
-@import url(./__animation/header__square-pic.css);
-@import url(./__animation/kaufman__triangle.css);
+
 
 @keyframes rotation {
   0% {
@@ -10,6 +9,7 @@
     transform: rotate(360deg);
 }
 }
-
-
+.rotation{
+  animation: rotation linear 20s infinite;
+}
 

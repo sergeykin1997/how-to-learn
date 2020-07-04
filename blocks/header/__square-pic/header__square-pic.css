@@ -7,3 +7,7 @@
   top: 64px;
   z-index: 3;
 }
+
+.rotation {
+  animation: rotation linear infinite 20s;
+}
